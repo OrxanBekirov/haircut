@@ -1,0 +1,200 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Saç baxımı məhsulları",
+      "image": "image/Category/1684412428acveganblog.jpg",
+      "products": [
+        {
+          "id": 101,
+          "name": "Professional Şampun",
+          "image": "image/mehsullar/sacbaximi/469865-8bb12301b205e0d6e9d69fc6ef0b57bd.jpg",
+          "description": "Təbii tərkibli, parlaq və sağlam saçlar üçün.",
+          "price": 18
+        },
+        {
+          "id": 102,
+          "name": "Saç Kremi",
+          "image": "image/mehsullar/sacbaximi/a04fa241-3de2-4f4e-ba38-d8bb1ced6803_EAS005009123_99-1.jpg.webp",
+          "description": "Quru saçları yumşaldır və parıltı bəxş edir.",
+          "price": 20
+        },
+        {
+          "id": 103,
+          "name": "Saç Yağı",
+          "image": "image/mehsullar/sacbaximi/sacyagi.webp",
+          "description": "Argan və kokos yağı qarışığı ilə qidalandırır.",
+          "price": 25
+        },
+        {
+          "id": 104,
+          "name": "Bərpaedici Maska",
+          "image": "image/mehsullar/sacbaximi/51692.webp",
+          "description": "Zədələnmiş saçlar üçün intensiv baxım.",
+          "price": 22
+        },
+        {
+          "id": 105,
+          "name": "Quru Şampun",
+          "image": "image/mehsullar/sacbaximi/qurusampun.png",
+          "description": "Su olmadan təmizlik və təravət hissi yaradır.",
+          "price": 15
+        },
+        {
+          "id": 106,
+          "name": "Saç Spreyi",
+          "image": "image/mehsullar/sacbaximi/sacsprey.jpg",
+          "description": "Formanı qoruyur və uzunmüddətli tutuculuq təmin edir.",
+          "price": 17
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Saqqal baxımı məhsulları",
+      "image":"image/Category/1684412428acveganblog.jpg",
+      "products": [
+        {
+          "id": 201,
+          "name": "Saqqal Yağı",
+          "image": "image/mehsullar/saqqalbaximi/1.jpg",
+          "description": "Saqqalı yumşaldır, dərini nəmləndirir.",
+          "price": 20
+        },
+        {
+          "id": 202,
+          "name": "Saqqal Balzamı",
+          "image": "image/mehsullar/saqqalbaximi/6.jpeg",
+          "description": "Saqqala forma verir və təbii parlaqlıq yaradır.",
+          "price": 22
+        },
+        {
+          "id": 203,
+          "name": "Saqqal Şampunu",
+          "image": "image/mehsullar/saqqalbaximi/2.png",
+          "description": "Saqqalı və dərini təmizləyir, qıcıqlanmanı azaldır.",
+          "price": 19
+        },
+        {
+          "id": 204,
+          "name": "Saqqal Fırçası",
+          "image": "image/mehsullar/saqqalbaximi/3.png",
+          "description": "Təbii tükdən hazırlanmış, gündəlik istifadə üçün ideal.",
+          "price": 16
+        },
+        {
+          "id": 205,
+          "name": "Saqqal Düzləşdirici",
+          "image": "image/mehsullar/saqqalbaximi/4.webp",
+          "description": "Elektrikli alət, saqqala formaverir.",
+          "price": 45
+        },
+        {
+          "id": 206,
+          "name": "Saqqal Kəsici (Trimmer)",
+          "image": "image/mehsullar/saqqalbaximi/5.webp",
+          "description": "Yüksək dəqiqliklə tənzimlənən professional trimmer.",
+          "price": 70
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Styling məhsulları",
+      "image":"img/pomade.jpg",
+      "products": [
+        {
+          "id": 301,
+          "name": "Pomada",
+          "image": "image/mehsullar/styling/1.jpeg",
+          "description": "Uzunömürlü və parlaq saç forması üçün.",
+          "price": 15
+        },
+        {
+          "id": 302,
+          "name": "Mat Mum",
+          "image": "image/mehsullar/styling/2.png",
+          "description": "Təbii görünüş sevənlər üçün mükəmməl seçim.",
+          "price": 17
+        },
+        {
+          "id": 303,
+          "name": "Gel",
+          "image": "image/mehsullar/styling/3.png",
+          "description": "Güclü tutuculuq və elastiklik təmin edir.",
+          "price": 12
+        },
+        {
+          "id": 304,
+          "name": "Köpük (Mousse)",
+          "image": "image/mehsullar/styling/4.jpeg",
+          "description": "Yüngül, amma həcmi artıran formaverici məhsul.",
+          "price": 14
+        },
+        {
+          "id": 305,
+          "name": "Styling Sprey",
+          "image": "image/mehsullar/styling/5.webp",
+          "description": "Saç formasını gün boyu qoruyur.",
+          "price": 13
+        },
+        {
+          "id": 306,
+          "name": "Saç Tozu",
+          "image": "image/mehsullar/styling/6.png",
+          "description": "Mat effektli, saçın həcmini artıran toz.",
+          "price": 16
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Təbii və vegan məhsullar",
+      "image":"img/vegancream.jpg",
+      "products": [
+        {
+          "id": 401,
+          "name": "Bitki əsaslı Şampun",
+          "image": "image/mehsullar/vegan/1.jpeg",
+          "description": "Kimyəvi qatqısız, təbii tərkibli şampun.",
+          "price": 23
+        },
+        {
+          "id": 402,
+          "name": "Vegan Saç Yağı",
+          "image": "image/mehsullar/vegan/2.jpeg",
+          "description": "Heyvani mənşəli maddə olmadan hazırlanmış təbii yağ.",
+          "price": 28
+        },
+        {
+          "id": 403,
+          "name": "Bitki Kremi",
+          "image": "image/mehsullar/vegan/3.webp",
+          "description": "Həssas dərilər üçün təbii nəmləndirici.",
+          "price": 24
+        },
+        {
+          "id": 404,
+          "name": "Aloe Vera Gel",
+          "image": "image/mehsullar/vegan/4.png",
+          "description": "Saç və dəri üçün təbii bərpaedici vasitə.",
+          "price": 19
+        },
+        {
+          "id": 405,
+          "name": "Lavanda Spreyi",
+          "image": "image/mehsullar/vegan/5.jpg",
+          "description": "Təbii ətirli, rahatladıcı tərkibə malik sprey.",
+          "price": 18
+        },
+        {
+          "id": 406,
+          "name": "Kofeinli Saç Toniki",
+          "image": "image/mehsullar/vegan/6.png",
+          "description": "Saç köklərini stimullaşdıran təbii tonik.",
+          "price": 21
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+  
+</style>
+<body>
+    
+    <header>
+           
+      <div class="logo">
+          <h1 class="title">NEWHAIR</h1>
+      </div>
+          
+        
+          <div class="nav">
+           
+            <div class="nav-group">
+                 <ul>
+                    <li class="show"><a href="#galery">Qalireya</a></li>
+                    <li class="show"> <a href="#xidmetler">Xidmətlər</a></li>
+
+                    <li class="show"><a href="#mehsullar">Məhsullar</a></li>
+                   
+                    <li class="show"><a href="#haqqimizda">Haqqimizda</a></li>
+                    <li class="show"><a href="#elaqe">Əlaqə</a></li>
+                    <li class="show"><a href="./reservation.html" target="_blank" >Reservlər</a></li>
+
+
+
+                 </ul>
+            </div>
+          </div>
+
+          <div class="button-aletr">
+              <button class="" id="btnrezervation">Rezervation</button>
+               
+          </div>
+        
+    </header>
+    <main>
+          
+    <section>
+        <div id="gizli" class="formreserv">
+            <i id="cancel" style="color: white;cursor: pointer;" class="fa-solid fa-xmark cancelform"></i>
+          <!-- Form burdada baslayir-->
+           <h2 class="reserv-title">Zehmet olmasa qeyd olun!!</h2>
+
+<form id="form">
+    <div class="form-group">
+        <label for="ad">Ad</label>
+        <input type="text" id="ad" name="ad" required>
+    </div>
+
+    <div class="form-group">
+        <label for="soyad">Soyad</label>
+        <input type="text" id="soyad" name="soyad" required>
+    </div>
+
+    <div class="form-group">
+        <label for="nomre">Nomre</label>
+        <input type="number" id="nomre" name="nomre" required>
+    </div>
+
+    <div class="form-group">
+        <label for="tarix">Tarix</label>
+        <input type="date" id="tarix" name="tarix" required>
+    </div>
+
+    <div class="form-group">
+        <label for="saat">Saat</label>
+        <input type="time" id="saat" name="saat" required>
+    </div>
+
+    <div class="form-group">
+        <label for="barber">Barber</label>
+        <select id="barber" name="barber" required>
+            <option value="" disabled selected>Berber seçin</option>
+            <!-- <option value="haircut">Saç kəsimi</option> -->
+      
+        </select>
+    </div>
+     <div class="form-group">
+        <label for="service">Sac kesim</label>
+        <select id="service" name="service" required>
+            <option value="" disabled selected>Sac kesimi seçin</option>
+            <!-- <option value="haircut">Saç kəsimi</option> -->
+      
+        </select>
+    </div>
+
+    <div class="form-group">
+<div id="alert" class="" style="color: white;"></div>
+
+        <button id="btnform" type="submit">Qeydiyyat</button>
+    </div>
+</form>
+ 
+<!-- Burada bitir-->
+        </div>
+       
+  </section>
+  <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
+    speed="600" parallax="true" pagination="true" pagination-clickable="true" navigation="true">
+    <div id="parallax-bg" slot="container-start" class="parallax-bg"
+      style="background-image: url(./image/logo/pexels-thgusstavo-1804638.jpg);background-size:40%;object-fit: contain;background-repeat: no-repeat;opacity: 0;transition: 3s ease-in;" data-swiper-parallax="-23%"></div>
+
+    <swiper-slide>
+      <div class="title" data-swiper-parallax="-300">Slide 1</div>
+      <div class="subtitle" data-swiper-parallax="-200">Stil sənin imzandır <br> biz onu mükəmməlləşdiririk.</div>
+      <div class="text" data-swiper-parallax="-100">
+        <p>
+       Hər saç telin sənin hekayəndir.
+Biz o hekayəni parlaqlıqla yazırıq.
+Təbiiliyi qoruyur, gözəlliyi önə çıxarırıq.
+Hər toxunuşda özünəinamı hiss et.
+Çünki mükəmməl görünüş saçlardan başlayır.
+        </p>
+      </div>
+      <div class="reser-product">
+        <button id="btn" class="btn btn-reservation" >Reservation</button>
+        <button  onclick="window.location.href='#mehsullar'"  class="btn btn-prdouct">Look Product</button>
+      </div>
+    </swiper-slide>
+
+  </swiper-container>
+
+      </section>
+
+
+  <!--Qaleriya burdan-->
+  <section id="galery">
+    <div class="container">
+      <div class="g-box g-box-1" style="grid-area:col1;"></div>
+      <div class="g-box g-box-2" style="grid-area: col2;"></div>
+      <div class="g-box g-box-3" style="grid-area: col3;">ds</div>
+      <div class="g-box g-box-4" style="grid-area: col4;">dsd</div>
+      <div class="g-box g-box-5" style="grid-area: col5;">dsd</div>
+
+
+    </div>
+
+  </section>
+
+  <!--Xidmetler  burdan-->
+  <section id="xidmetler">
+      <div class="container-xid">
+           <h2 class="container-xid-title">Xidmətlərimiz</h2>
+           <div class="container-xid-group">
+            <div class="container-xid-left">
+                <div class="container-xid-left-title">
+                  <img src="./image/logo/barbershop-hair-cut-salon-logo-600nw-2495133029-removebg-preview.png" alt="Logo">
+                  <h2>NEWHAIR</h2>
+                </div> 
+                <div class="container-xid-left-list">
+                   <ul>
+                    <li><a href="" class="move-link"> Klassik Saç Kəsimi.......................................15azn</a> <button>Sifaris</button></li>
+                    <li><a href="">Moda Saç Kəsimi (Fade / Undercut)................................................20azn</a><button>Sifaris</button></li>
+                    <li><a href=""> Saqqal Düzəlişi & Təraş.................................10azn</a><button>Sifaris</button></li>
+                    <li><a href=""> Tam Grooming Paketi...................................49azn</a><button>Sifaris</button></li>
+                    <li><a href=""> Uşaqlar üçün Kəsim.......................................8azn</a><button>Sifaris</button></li>
+           
+
+                   </ul>
+                </div> 
+            </div>
+            <div class="container-xid-right">
+        <div class="container-xid-right-foto">
+   
+</div>
+
+            </div>
+           </div>
+
+      </div>
+  </section>
+  <!-- Mehsular burdan baslayir -->
+  <section id="mehsullar">
+     <h2>Bizim Məhsullar</h2>
+   <a href="" style="text-decoration: none;"> <h3>Kategoriyalar</h3></a>
+     <div class="category-list">
+      <div class="categories">
+         <div class="category"><img src="./image/Category/yagli-saclar-ucun-sac-baximi.webp" alt="Sac baxim"></div>
+          <div class="category"><img src="./image/Category/WhatsApp_Image_2022-02-09_at_7_23_31_PM.jpeg" alt=""></div>
+          <div class="category"><img src="./image/Category/1684412428acveganblog.jpg" alt=""></div>
+          <div class="category"><img src="./image/Category/ffb8de75a3af0cea5b9a49b79c.webp" alt=""></div>
+          <div class="category"><img src="./image/Category/images.jfif" alt=""></div>
+      </div>  
+     </div>
+     <div class="categoriya-ətraflı">
+     <a href="category.html" target="_blank">
+  <button id="btn-mehsul-etrafli">Ətraflı >></button>
+</a>
+    </div>
+       
+  <a href="" style="text-decoration: none;"><h3>Məhsullar</h3></a> 
+  <div class="product-list">
+  
+  </div>
+   <div class="mehsul-ətraflı">
+   <a href="category.html" target="_blank">
+  <button id="btn-mehsul-etrafli">Ətraflı >></button>
+</a>
+  </div>
+
+   <!--   Haqqimizda buradan basaliyir-->
+  </section>
+
+      <section id="haqqimizda">
+              
+            <div class="haq-container">
+               <h2 class="container-xid-title">Komandamız</h2>  
+    <div class="info-cont">
+  <div id="card" class="card text-bg-dark">
+  <img src="./image/profil/team1.png.webp" class="card-img" alt="">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Leo Carter</h5>
+    <p class="card-text"><small>Sakal (saqqal) stilisti və forma ustası</small></p>
+
+    <p class="card-text">Leo saqqal formalaşdırma, kontur çəkilməsi və qaynaq texnikalarında yüksək səviyyədə təcrübəyə sahibdir. Saqqal baxımı, yağların və maskaların tətbiqi mövzusunda peşəkar məsləhətlər verir. Saqqal forması ilə saç kəsiminin ideal uyğunluğunu yaratmağı bacarır.</p>
+  </div>
+</div>
+  <div id="card" class="card text-bg-dark">
+  <img src="./image/profil/team2.png.webp" class="card-img" alt="">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Damian "SharpLine" Torres</h5>
+    <p class="card-text"><small>Peşə: Fade və modern kəsim ustası</small></p>
+
+    <p class="card-text">Damian cəsarətli, modern və artistik saç dizaynları ilə tanınır. Çizgi, tribal, freestyle pattern və ikirəng texnikaları üzrə ixtisaslaşıb. Gənc müştərilərin sevimlisidir və trend dizaynları mükəmməl şəkildə tətbiq edir. Enerji dolu və innovator ustadır.</p>
+  </div>
+</div>
+  <div id="card" class="card text-bg-dark">
+  <img src="./image/profil/team3.png.webp" class="card-img" alt="">
+  <div class="card-img-overlay">
+    <h5 class="card-title"> Markus Blade</h5>
+    <p class="card-text"><small>Peşə: Klassik və Vintage kəsim ustası</small></p>
+
+    <p class="card-text">Markus 12 ildir barber sənətindədir. Old school kəsimlər, pompadour, slick back, side part və klassik kişilər üçün qırxım texnikalarında peşəkardır. Saç baxımı və stil məsləhətləri verməyi xoşlayır, müştərilərinə fərdi yanaşma göstərir.</p>
+  </div>
+</div>
+  <div id="card" class="card text-bg-dark">
+  <img src="./image/profil/istockphoto-2233798808-1024x1024.jpg" class="card-img" alt="">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Alex "FadeMaster" Russo</h5>
+    <p class="card-text"><small>Peşə: Fade və modern kəsim ustası</small></p>
+
+    <p class="card-text">Alex 8 illik təcrübəyə malikdir. Xüsusilə skin fade, taper fade və dəqiq bərbər konturları üzrə ixtisaslaşıb. Müasir texnikalardan istifadə edir və hər müştərinin üz quruluşuna uyğun kəsim seçməyi üstün tutur. Enerjili, kreativ və müştəri məmnuniyyətinə fokuslanmış ustadır.</p>
+  </div>
+</div>
+
+
+
+
+    </div>
+
+
+            </div>
+
+      </section>
+
+      <!-- Elaqe burda baslayir-->
+      <section id="elaqe">
+        <h2 class="container-xid-title"><i id="location" class="fa-solid fa-location-dot"></i>   Biz Burdayiq</h2> 
+         <div style="margin-top: 25px;" class="elaqe-container">
+          <div class="map">
+           
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48631.22305564692!2d49.7998573!3d40.3766862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2saz!4v1762716092624!5m2!1sru!2saz" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+           <div class="foto">
+
+  <div class="foto-info">
+    <h2>Əlaqə</h2>
+    <p>Telefon: +994 50 000 00 00</p>
+    <p>Email: example@mail.com</p>
+  </div>
+
+           </div>
+         </div>
+
+      </section>
+    </main>
+    <footer id="footer">
+      
+        <div class="left" style="grid-area: col1;">
+          <form id="form-footer">
+            <div class="form-group-footer">
+              <div class="form-detail-footer">
+                <label for="">Ad</label>
+                <Input type="text" placeholder="Ad"></Input>
+              </div>
+                <div class="form-detail">
+                <label for="">Soyad</label>
+                <Input type="text" placeholder="Soyad"></Input>
+              </div>
+               <div class="form-detail">
+                <label for="">Email</label>
+                <Input type="email" placeholder="Email"></Input>
+              </div>
+              <label for="message">Message</label>
+                 <textarea name="message" id="message" rows="6px" cols="6px"></textarea>
+            </div>
+          </form>
+            <button type="submit"> Gonder</button>
+        </div>
+       <div class="center" style="grid-area: col2;">
+        <div class="footer-info">
+          <h2><i class="fa-solid fa-phone"></i>   Contact Melumat</h2>
+          <small>(+994)-055-55-55</small>
+        </div>
+           <div class="footer-info">
+          <h2> <i class="fa-solid fa-envelope"></i>  Email Unvanimiz</h2>
+          <small>exaple@gmail.con</small>
+        </div>
+           <div class="footer-info">
+          <h2><i class="fa-solid fa-location-dot"></i>   Mekan  Unvanimiz</h2>
+          <small>Huseyn Cavid 56</small>
+        </div>
+          <div class="footer-info">
+             <h3><a href=""><i class="fa-brands fa-facebook"></i>   Facebook</a></h3>
+             <h3><a href=""><i class="fa-brands fa-instagram"></i>  Instagram</a></h3>
+             <h3><a href=""><i class="fa-brands fa-youtube"></i>  Yotube</a></h3>
+
+           </div>
+
+       </div>
+       <div class="right" style="grid-area: col3;">3</div>
+    
+       
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+        <script src="berbar.js"></script>
+       <script src="./app.js"></script>
+</body>
+</html>

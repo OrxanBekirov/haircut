@@ -1,0 +1,24 @@
+{
+  "services": [
+    {
+      "ad": "Klassik Saç Kəsimi",
+      "qiymet": "15azn"
+    },
+    {
+      "ad": "Moda Saç Kəsimi (Fade / Undercut)",
+      "qiymet": "20azn"
+    },
+    {
+      "ad": "Saqqal Düzəlişi & Təraş",
+      "qiymet": "10azn"
+    },
+    {
+      "ad": "Tam Grooming Paketi",
+      "qiymet": "49azn"
+    },
+    {
+      "ad": "Uşaqlar üçün Kəsim",
+      "qiymet": "8azn"
+    }
+  ]
+}
