@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./category.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./category.css">
 </head>
+
 <body>
-          
-    <header>
-        <div class="container">
-        <div id="logo">
-           <h1 class="logo-title">NEWHAIR</h1>
-        </div >
-          <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-  
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-      
-        <!-- <li class="nav-item dropdown">
+
+  <header>
+    <div class="container">
+      <div id="logo">
+        <h1 class="logo-title">NEWHAIR</h1>
+      </div>
+      <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+
+              <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown link
           </a>
@@ -33,20 +37,50 @@
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li> -->
-     
-      </ul>
-    </div>
-  </div>
-</nav>
-        </div>
-       
-    </header>
-     <main>
-        <section id="sec1">
-            <div class="cont">
 
-               
-             <!-- <div class="product-grouup">
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="cart" class="div" style="color: white;">
+        <button id="btn-cart">
+          <div class="btn-cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i><span id="cart-span-count" class="span-cart-item">0</span>
+          </div>
+          Basket
+        </button>
+      </div>
+      <div id="cart-bottom" class="cart-bottom">
+           <h2 class="cart-item">Senin Sebetin</h2>
+           <div class="cart-content">
+            <!-- <div class="cart-box">
+              <img src="" alt="">
+              <div class="cart-detail">
+                <h2 class="cart-product-title">Adi</h2>
+                <span class="cart-product-price">20azn</span>
+                <div class="cart-qunatity">
+                  <button id="decrement">-</button>
+                <span class="number">0</span>
+                <button id="increment">+</button>
+                </div>
+              </div>
+              <i class="fa-solid fa-trash"></i>
+            </div> -->
+           </div>
+           <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">0</div>
+           </div>
+           <button class="buy-now">Ödəniş Et</button>
+           <i class="fa-solid fa-xmark" id="cart-close"></i>
+      </div>
+  </header>
+  <main>
+    <section id="sec1">
+      <div class="cont">
+
+
+        <!-- <div class="product-grouup">
                   <div >
                     <h2> Sac baximi mehsulari</h2>
                   </div>
@@ -58,21 +92,22 @@
     <p class="card-text">Argan və kokos yağı qarışığı ilə qidalandırır.</p>
     <div class="d-flex justify-content-between align-items-center">
         <span class="fw-bold text-primary">25 AZN</span>
-        <button class="btn btn-dark">Səbətə əlavə et</button>
+        <button id="add-cart" class="btn btn-dark">Səbətə əlavə et</button>
     </div>
   </div>
 </div>
                   </div>
              </div> -->
-             
-            </div>
-        </section>
-     </main>
+
+      </div>
+    </section>
+  </main>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-         <script src="./category.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="./category.js"></script>
 </body>
+
 </html>
